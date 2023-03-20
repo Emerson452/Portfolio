@@ -646,13 +646,13 @@ footer
 {
     font-size: 150%;
 }
+
 .card_projet
 {
-    padding-top: 1%;
-    padding-bottom: 2%;
     margin-top: 10%;
     display: flex;
     justify-content: space-evenly; 
+    gap: 3rem;
 }
 
 .card
@@ -660,14 +660,20 @@ footer
     width: 40%;
     height: 15rem;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid 5px #046874;
+    
 }
 
 .left_card
 {
-    width: 20%;
-    height: 15rem;
-    background-color: rgb(0, 0, 0);
-    margin-left: 10%;
+    width: 5rem;
+    height: 5rem;
+    background-color: #046874;
+    transform: rotate(45deg);
+    margin-top: -1rem;
+    margin-left: -1rem;
 }
 
 .pannel_projet > h3
@@ -699,12 +705,12 @@ footer
 
 #card_projet_git
 {
-    background-image: url(/assets/images/git.png);
+    background-image: url(/assets/images/procedure/git.png);
 }
 
 #card_projet_wsl
 {
-    background-image: url(/assets/images/wsl.png);
+    background-image: url(/assets/images/procedure/wsl.png);
 }
 .tableau_synthese
 {

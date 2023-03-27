@@ -1,0 +1,52 @@
+# Nom du workflow
+name: deploy-to-server
+
+# Déclencher l'action lorsqu'un push est effectué sur la branche "main"
+on:
+  push:
+    branches:
+      - main
+
+# Définition du job
+jobs:
+  deploy:
+    # Choix du système d'exploitation utilisé pour l'action
+    runs-on: ubuntu-latest
+
+    # Étapes de l'action
+    steps:
+    # Récupération du code à partir de votre dépôt GitHub
+    - uses: actions/checkout@v2
+
+    # Installation des dépendances
+    - name: Install dependencies
+      run: npm install
+
+    # Build de l'application
+    - name: Build application
+      run: npm run build
+
+    # Copie des fichiers HTML, CSS et JS sur le serveur
+    - name: Upload files to server
+      uses: actions/upload-artifact@v2
+      with:
+        # Chemin des fichiers à copier
+        path: |
+          index.html
+          assets/css/*
+          assets/js/*
+
+    # Connexion au serveur et déploiement des fichiers
+    - name: Deploy to server
+      uses: appleboy/ssh-action@master
+      with:
+        # Adresse IP du serveur
+        host: ${{ secrets.SERVER_IP }}
+        # Identifiant de connexion au serveur
+        username: ${{ secrets.SERVER_USERNAME }}
+        # Clé SSH pour l'authentification
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        # Commande à exécuter sur le serveur pour extraire les fichiers copiés
+        script: |
+          mkdir -p /var/www/my-app
+          tar xvf /tmp/deploy.tar.gz -C /var/www/my-app --strip-components=1

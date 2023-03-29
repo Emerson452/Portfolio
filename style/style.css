@@ -712,6 +712,17 @@ footer
 {
     background-image: url(/assets/images/procedure/wsl.png);
 }
+
+#card_projet_h4cked
+{
+    background-image: url(/assets/images/procedure/h4cked.png);
+}
+
+#card_projet_pentesting
+{
+    background-image: url(/assets/images/procedure/pentesting.png);
+}
+
 .tableau_synthese
 {
     text-align: center;

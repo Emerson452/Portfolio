@@ -723,6 +723,16 @@ footer
     background-image: url(/assets/images/procedure/pentesting.png);
 }
 
+#card_projet_wireguard
+{
+    background-image: url(/assets/images/procedure/Wireguard.png);
+}
+
+#card_projet_docker
+{
+    background-image: url(/assets/images/procedure/docker.jpg);
+}
+
 .tableau_synthese
 {
     text-align: center;

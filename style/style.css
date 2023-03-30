@@ -728,6 +728,10 @@ footer
     background-image: url(/assets/images/procedure/Wireguard.png);
 }
 
+#card_projet_docker
+{
+    background-image: url(/assets/images/procedure/docker.jpg);
+}
 
 .tableau_synthese
 {

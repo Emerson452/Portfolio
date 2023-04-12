@@ -685,12 +685,12 @@ footer
 
 #card_projet_wamp
 {
-    background-image: url("../assets/images/procedure/wamp.png");
+    background-image: url("assets/images/procedure/wamp.png");
 }
 
 #card_projet_debian
 {
-    background-image: url("../assets/images/procedure/debian-11.png");
+    background-image: url("/assets/images/procedure/debian-11.png");
 }
 
 #card_projet_b_extend

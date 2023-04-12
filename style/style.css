@@ -685,7 +685,7 @@ footer
 
 #card_projet_wamp
 {
-    background-image: url(/assets/images/procedure/wamp.png);
+    background-image: url("/assets/images/procedure/wamp.png");
 }
 
 #card_projet_debian

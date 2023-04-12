@@ -5,7 +5,7 @@ name: deploy-to-server
 on:
   push:
     branches:
-      - main
+      - master
 
 # Définition du job
 jobs:

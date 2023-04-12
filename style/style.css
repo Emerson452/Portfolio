@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("/assets/images/leaves.jpg");
+    background-image: url("../assets/images/leaves.jpg");
     background-color: rgb(56, 48, 48);
     background-size: cover;
     background-attachment: fixed;
@@ -144,7 +144,7 @@ a:hover
 
 .droite_moi
 {
-    background-image: url('/assets/images/user.png');
+    background-image: url('../assets/images/user.png');
     background-position: center;
     background-size: 50%;
     background-repeat: no-repeat;
@@ -356,12 +356,12 @@ padding: 2% 0;
 /* BTS */
 #img_bts_sio
 {
-    background-image: url("/assets/images/bts_sio.png");
+    background-image: url("../assets/images/bts_sio.png");
 }
 
 #img_cyber
 {
-    background-image: url("/assets/images/cybersecurite.jpg");
+    background-image: url("../assets/images/cybersecurite.jpg");
     background-size: 80%;
 
 }
@@ -475,7 +475,7 @@ p
 
 #img_veille
 {
-    background-image: url("/assets/images/veille.jpg");
+    background-image: url("../assets/images/veille.jpg");
     background-size: 100%;
 }
 
@@ -510,17 +510,17 @@ p
 
 #blockchain
 {
-    background-image: url("/assets/images/blockchain.jpg");
+    background-image: url("../assets/images/blockchain.jpg");
 }
 
 #cryptomonnaie
 {
-    background-image: url("/assets/images/cryptomonnaie.jpg");
+    background-image: url("../assets/images/cryptomonnaie.jpg");
 }
 
 #juridique
 {
-    background-image: url("/assets/images/juridique.jpg");
+    background-image: url("../assets/images/juridique.jpg");
 }
 
 .sujet:hover
@@ -628,7 +628,7 @@ footer
 
 #img_projet
 {
-    background-image: url("/assets/images/projet.jpg");
+    background-image: url("../assets/images/projet.jpg");
     background-size: 100%;
 }
 
@@ -685,32 +685,32 @@ footer
 
 #card_projet_wamp
 {
-    background-image: url(/assets/images/procedure/wamp.png);
+    background-image: url("../assets/images/procedure/wamp.png");
 }
 
 #card_projet_debian
 {
-    background-image: url(/assets/images/procedure/debian-11.png);
+    background-image: url("../assets/images/procedure/debian-11.png");
 }
 
 #card_projet_b_extend
 {
-    background-image: url(/assets/images/procedure/b_extend.png);
+    background-image: url("../assets/images/procedure/b_extend.png");
 }
 
 #card_projet_superinfo
 {
-    background-image: url(/assets/images/procedure/superinfo.png);
+    background-image: url("../assets/images/procedure/superinfo.png");
 }
 
 #card_projet_git
 {
-    background-image: url(/assets/images/procedure/git.png);
+    background-image: url("../assets/images/procedure/git.png");
 }
 
 #card_projet_wsl
 {
-    background-image: url(/assets/images/procedure/wsl.png);
+    background-image: url("../assets/images/procedure/wsl.png");
 }
 
 #card_projet_h4cked

@@ -685,7 +685,7 @@ footer
 
 #card_projet_wamp
 {
-    background-image: url("/assets/images/procedure/wamp.png");
+    background-image: url("../assets/images/procedure/wamp.png");
 }
 
 #card_projet_debian
@@ -715,22 +715,22 @@ footer
 
 #card_projet_h4cked
 {
-    background-image: url(/assets/images/procedure/h4cked.png);
+    background-image: url("../assets/images/procedure/h4cked.png");
 }
 
 #card_projet_pentesting
 {
-    background-image: url(/assets/images/procedure/pentesting.png);
+    background-image: url("../assets/images/procedure/pentesting.png");
 }
 
 #card_projet_wireguard
 {
-    background-image: url(/assets/images/procedure/Wireguard.png);
+    background-image: url("../assets/images/procedure/Wireguard.png");
 }
 
 #card_projet_docker
 {
-    background-image: url(/assets/images/procedure/docker.jpg);
+    background-image: url("../assets/images/procedure/docker.jpg");
 }
 
 .tableau_synthese

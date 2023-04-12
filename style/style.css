@@ -690,47 +690,47 @@ footer
 
 #card_projet_debian
 {
-    background-image: url(/assets/images/procedure/debian-11.png);
+    background-image: url("/assets/images/procedure/debian-11.png");
 }
 
 #card_projet_b_extend
 {
-    background-image: url(/assets/images/procedure/b_extend.png);
+    background-image: url("/assets/images/procedure/b_extend.png");
 }
 
 #card_projet_superinfo
 {
-    background-image: url(/assets/images/procedure/superinfo.png);
+    background-image: url("/assets/images/procedure/superinfo.png");
 }
 
 #card_projet_git
 {
-    background-image: url(/assets/images/procedure/git.png);
+    background-image: url("/assets/images/procedure/git.png");
 }
 
 #card_projet_wsl
 {
-    background-image: url(/assets/images/procedure/wsl.png);
+    background-image: url("/assets/images/procedure/wsl.png");
 }
 
 #card_projet_h4cked
 {
-    background-image: url(/assets/images/procedure/h4cked.png);
+    background-image: url("/assets/images/procedure/h4cked.png");
 }
 
 #card_projet_pentesting
 {
-    background-image: url(/assets/images/procedure/pentesting.png);
+    background-image: url("/assets/images/procedure/pentesting.png");
 }
 
 #card_projet_wireguard
 {
-    background-image: url(/assets/images/procedure/Wireguard.png);
+    background-image: url("/assets/images/procedure/Wireguard.png");
 }
 
 #card_projet_docker
 {
-    background-image: url(/assets/images/procedure/docker.jpg);
+    background-image: url("/assets/images/procedure/docker.jpg");
 }
 
 .tableau_synthese

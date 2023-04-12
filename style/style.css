@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("assets/images/leaves.jpg");
+    background-image: url("../assets/images/leaves.jpg");
     background-color: rgb(56, 48, 48);
     background-size: cover;
     background-attachment: fixed;

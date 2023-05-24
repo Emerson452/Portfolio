@@ -722,14 +722,13 @@ footer
     background-image: url("../assets/images/procedure/h4cked.png");
 }
 
-#card_projet_pentesting
+#card_projet_pr
 {
-    background-image: url("../assets/images/procedure/pentesting.png");
+    background-image: url("../assets/images/procedure/pr.png");
 }
-
-#card_projet_wireguard
+#card_projet_ecuries
 {
-    background-image: url("../assets/images/procedure/Wireguard.png");
+    background-image: url("../assets/images/procedure/ecuries.png");
 }
 
 #card_projet_docker
